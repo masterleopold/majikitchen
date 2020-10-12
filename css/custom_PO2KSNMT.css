@@ -21,14 +21,28 @@
 .slides .button, .slides .slides-form{
 	letter-spacing: 0.02em;
 }
-/* Slide 1 (#72) */
-h1{
+.button:hover {
+    box-shadow: none;
+    opacity: 1 !important;
+}
+.sidebar .mainMenu li{
 	letter-spacing: 0.02em;
 }
-p.large{
+.sidebar .subMenu.small li{
 	letter-spacing: 0.02em;
 }
-/* Slide 2 (#74) */
+/* Slide 1 (#98) */
+h4{
+	letter-spacing: 0.02em;
+}
+/* Slide 2 (#23) */
+h2{
+	letter-spacing: 0.02em;
+}
+.p.largest, p.largest{
+	letter-spacing: 0.02em;
+}
+/* Slide 3 (#74) */
 h1{
 	letter-spacing: 0.02em;
 }
@@ -41,7 +55,7 @@ p.large{
 .p.small, p.small{
 	letter-spacing: 0.01em;
 }
-/* Slide 3 (#55) */
+/* Slide 4 (#55) */
 .p.large, p.large {
 	letter-spacing: 0.01em;
 }
