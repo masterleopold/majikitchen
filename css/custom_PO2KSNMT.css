@@ -1,0 +1,53 @@
+/* Panel Top 0 (#04) */
+.button.actionButton{
+	padding: 0px;
+  background: none;
+  border-radius: 0;
+  box-shadow: 0;
+  width: 24px;
+  height: 34px;
+}
+.button.actionButton svg{
+	width: 24px;
+	height: 24px;
+}
+.button{
+	background: none;
+	box-shadow: none;
+}
+.panel .sections .menu li{
+	letter-spacing: 0.02em;
+}
+.slides .button, .slides .slides-form{
+	letter-spacing: 0.02em;
+}
+/* Slide 1 (#72) */
+h1{
+	letter-spacing: 0.02em;
+}
+p.large{
+	letter-spacing: 0.02em;
+}
+/* Slide 2 (#74) */
+h1{
+	letter-spacing: 0.02em;
+}
+h4{
+	letter-spacing: 0.02em;
+}
+p.large{
+	letter-spacing: 0.02em;
+}
+.p.small, p.small{
+	letter-spacing: 0.01em;
+}
+/* Slide 3 (#55) */
+.p.large, p.large {
+	letter-spacing: 0.01em;
+}
+h1 {
+	letter-spacing: 0.02em;
+}
+.slides .button, .slides .slides-form{
+	letter-spacing: 0.02em !important;
+}
