@@ -15,53 +15,14 @@
 	background: none;
 	box-shadow: none;
 }
-.panel .sections .menu li{
-	letter-spacing: 0.02em;
-}
-.slides .button, .slides .slides-form{
-	letter-spacing: 0.02em;
-}
 .button:hover {
     box-shadow: none;
     opacity: 1 !important;
 }
-.sidebar .mainMenu li{
-	letter-spacing: 0.02em;
-}
-.sidebar .subMenu.small li{
-	letter-spacing: 0.02em;
+.panel .sections .menu li{
+	font-weight: 500;
 }
 /* Slide 1 (#98) */
-h4{
-	letter-spacing: 0.02em;
-}
-/* Slide 2 (#23) */
-h2{
-	letter-spacing: 0.02em;
-}
-.p.largest, p.largest{
-	letter-spacing: 0.02em;
-}
-/* Slide 3 (#74) */
-h1{
-	letter-spacing: 0.02em;
-}
-h4{
-	letter-spacing: 0.02em;
-}
-p.large{
-	letter-spacing: 0.02em;
-}
-.p.small, p.small{
-	letter-spacing: 0.01em;
-}
-/* Slide 4 (#55) */
-.p.large, p.large {
-	letter-spacing: 0.01em;
-}
-h1 {
-	letter-spacing: 0.02em;
-}
-.slides .button, .slides .slides-form{
-	letter-spacing: 0.02em !important;
+.h4.small, h4.small{
+	font-size: 38px;
 }

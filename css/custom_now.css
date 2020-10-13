@@ -1,0 +1,81 @@
+/* #### Now #### */
+
+@font-face {
+  font-family: Now;
+  src: url(./fonts/Now-Light.eot);
+  src: url(./fonts/Now-Light.woff2) format("woff2"),url(./fonts/Now-Light.woff) format("woff"),url(./fonts/Now-Light.ttf) format("truetype"),url(./fonts/Now-Light.svg#Now-Light) format("svg"),url(./fonts/Now-Light.eot?#iefix) format("embedded-opentype");
+  font-weight: 100;
+  font-style: normal
+}
+
+@font-face {
+  font-family: Now;
+  src: url(./fonts/Now-LightItalic.eot);
+  src: url(./fonts/Now-LightItalic.woff2) format("woff2"),url(./fonts/Now-LightItalic.woff) format("woff"),url(./fonts/Now-LightItalic.ttf) format("truetype"),url(./fonts/Now-LightItalic.svg#Now-LightItalic) format("svg"),url(./fonts/Now-LightItalic.eot?#iefix) format("embedded-opentype");
+  font-weight: 100;
+  font-style: italic
+}
+
+@font-face {
+  font-family: Now;
+  src: url(./fonts/Now.eot);
+  src: url(./fonts/Now.woff2) format("woff2"),url(./fonts/Now.woff) format("woff"),url(./fonts/Now.ttf) format("truetype"),url(./fonts/Now.svg#Now) format("svg"),url(./fonts/Now.eot?#iefix) format("embedded-opentype");
+  font-weight: 200;
+  font-style: normal
+}
+
+@font-face {
+  font-family: Now;
+  src: url(./fonts/Now-Italic.eot);
+  src: url(./fonts/Now-Italic.woff2) format("woff2"),url(./fonts/Now-Italic.woff) format("woff"),url(./fonts/Now-Italic.ttf) format("truetype"),url(./fonts/Now-Italic.svg#Now-Italic) format("svg"),url(./fonts/Now-Italic.eot?#iefix) format("embedded-opentype");
+  font-weight: 200;
+  font-style: italic
+}
+
+@font-face {
+  font-family: Now;
+  src: url(./fonts/Now-Medium.eot);
+  src: url(./fonts/Now-Medium.woff2) format("woff2"),url(./fonts/Now-Medium.woff) format("woff"),url(./fonts/Now-Medium.ttf) format("truetype"),url(./fonts/Now-Medium.svg#Now-Medium) format("svg"),url(./fonts/Now-Medium.eot?#iefix) format("embedded-opentype");
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: Now;
+  src: url(./fonts/Now-MediumItalic.eot);
+  src: url(./fonts/Now-MediumItalic.woff2) format("woff2"),url(./fonts/Now-MediumItalic.woff) format("woff"),url(./fonts/Now-MediumItalic.ttf) format("truetype"),url(./fonts/Now-MediumItalic.svg#Now-MediumItalic) format("svg"),url(./fonts/Now-MediumItalic.eot?#iefix) format("embedded-opentype");
+  font-weight: 400;
+  font-style: italic
+}
+
+@font-face {
+  font-family: Now;
+  src: url(./fonts/Now-Bold.eot);
+  src: url(./fonts/Now-Bold.woff2) format("woff2"),url(./fonts/Now-Bold.woff) format("woff"),url(./fonts/Now-Bold.ttf) format("truetype"),url(./fonts/Now-Bold.svg#Now-Bold) format("svg"),url(./fonts/Now-Bold.eot?#iefix) format("embedded-opentype");
+  font-weight: 600;
+  font-style: normal
+}
+
+@font-face {
+  font-family: Now;
+  src: url(./fonts/Now-BoldItalic.eot);
+  src: url(./fonts/Now-BoldItalic.woff2) format("woff2"),url(./fonts/Now-BoldItalic.woff) format("woff"),url(./fonts/Now-BoldItalic.ttf) format("truetype"),url(./fonts/Now-BoldItalic.svg#Now-BoldItalic) format("svg"),url(./fonts/Now-BoldItalic.eot?#iefix) format("embedded-opentype");
+  font-weight: 600;
+  font-style: italic
+}
+
+@font-face {
+  font-family: Now;
+  src: url(./fonts/Now-Black.eot);
+  src: url(./fonts/Now-Black.woff2) format("woff2"),url(./fonts/Now-Black.woff) format("woff"),url(./fonts/Now-Black.ttf) format("truetype"),url(./fonts/Now-Black.svg#Now-Black) format("svg"),url(./fonts/Now-Black.eot?#iefix) format("embedded-opentype");
+  font-weight: 800;
+  font-style: normal
+}
+
+@font-face {
+  font-family: Now;
+  src: url(./fonts/Now-BlackItalic.eot);
+  src: url(./fonts/Now-BlackItalic.woff2) format("woff2"),url(./fonts/Now-BlackItalic.woff) format("woff"),url(./fonts/Now-BlackItalic.ttf) format("truetype"),url(./fonts/Now-BlackItalic.svg#Now-BlackItalic) format("svg"),url(./fonts/Now-BlackItalic.eot?#iefix) format("embedded-opentype");
+  font-weight: 800;
+  font-style: italic
+}
