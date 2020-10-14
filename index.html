@@ -43,7 +43,34 @@
         }
     </style>
     <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
-<link href="css/custom_PO2KSNMT.css?p=IfGpOJ81" rel="stylesheet" type="text/css"><!-- Global site tag (gtag.js) - Google Analytics -->
+<link href="css/custom_PO2KSNMT.css?p=IfGpOJ81" rel="stylesheet" type="text/css"><style type="text/css">
+        .slides,
+        .slides p {
+            font-family: 'Euclid Circular A', sans-serif;
+            font-weight: 300;
+            letter-spacing: 0em;
+        }
+        .slides h1,
+        .slides h2,
+        .slides h3,
+        .slides h4,
+        .slides h5,
+        .slides h6 {
+            font-family: 'Euclid Circular A', sans-serif;
+            font-weight: 500;
+            letter-spacing: 0.01em;
+        }
+        .slides .button,
+        .slides .slides-form {
+            font-family: 'Euclid Circular A', sans-serif;
+            font-weight: 500;
+            letter-spacing: 0em;
+        }
+</style> 
+<link href="css/custom_euclid.css" rel="stylesheet" type="text/css"> 
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180599504-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -393,20 +420,22 @@
         <p class="large margin-bottom-4 ae-2"><span class="opacity-8">Feel free to let us create something, then you'll get inspired.</span><br><span class="opacity-8">We are here for you. May the horse with you.</span></p>
         <div class="form-55 fix-5-12">
           <div class="pad padding-top-2 shadow left selected ae-3">
-            <form action="ajax-email.php" id="contact-form" method="post" class="slides-form wide" data-ajax-form="true">
+            <form action="https://formspree.io/f/xoqpenqg" method="post" class="slides-form wide">
               <ul class="flex noSpaces">
                 <li class="col-6-12 form-55-input-1">
-                  <div class="label ae-5"><label class="left opacity-5" for="name55">Your name</label></div>
-                  <input class="rounded wide ae-6" id="name55" type="name" name="name" placeholder="Name" required>
+                  <div class="label ae-5"><label class="left opacity-5" for="name">Your name</label></div>
+                  <input class="rounded wide ae-6" type="name" name="name" placeholder="Name" required>
                 </li>
                 <li class="col-6-12 form-55-input-2">
-                  <div class="label ae-5"><label class="left opacity-5" for="email55">Email address</label></div>
-                  <input class="rounded wide ae-6" id="email55" type="email" name="email" placeholder="Email" required>
+                  <div class="label ae-5"><label class="left opacity-5" for="email">Email address</label></div>
+                  <input class="rounded wide ae-6" type="email" name="email" placeholder="Email" required>
                 </li>
               </ul>
-              <div class="label ae-8"><label class="opacity-5" for="message55">Message</label></div>
-              <textarea class="rounded left wide ae-9" id="message55" type="text" name="message" placeholder="Message" required></textarea>
-              <button type="submit" class="button wide black rounded ae-10 cropBottom margin-top-2" data-success-text="Done!" data-success-class="message-sent" name="button">Send message</button>
+              <div class="label ae-8"><label class="opacity-5" for="message">Message</label></div>
+              <textarea class="rounded left wide ae-9" type="text" name="message" placeholder="Message" required></textarea>
+              <button type="submit" class="button wide black rounded ae-10 cropBottom margin-top-2">Send message</button>
+              <input type="hidden" name="_next" value="//majikitchen.com" />
+              <input type="hidden" name="_subject" value="Majikitchen Webpage" />
             </form>
           </div>
         </div>
