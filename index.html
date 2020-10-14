@@ -19,15 +19,13 @@
 
     
     <!-- Fonts and Material Icons -->
+    <link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css2?family=Euclid+Circular+A:300:wght@100;300;400;500;600;800&family=Euclid+Circular+A:500&family=Euclid+Circular+A:500&family=Material+Icons&display=swap"/>
 
-    
-    <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
-<link href="css/custom_PO2KSNMT.css?p=IfGpOJ81" rel="stylesheet" type="text/css"><style type="text/css">
+    <style type="text/css">
         .slides,
         .slides p {
-            font-family: 'Euclid Circular A', sans-serif;
-            font-weight: 300;
-            letter-spacing: 0em;
+            font-family: 'Euclid Circular A:300', sans-serif;
+            font-weight: 400;
         }
         .slides h1,
         .slides h2,
@@ -35,18 +33,33 @@
         .slides h4,
         .slides h5,
         .slides h6 {
-            font-family: 'Euclid Circular A', sans-serif;
-            font-weight: 500;
-            letter-spacing: 0.01em;
+            font-family: 'Euclid Circular A:500', sans-serif;
+            font-weight: 400;
         }
         .slides .button,
         .slides .slides-form {
-            font-family: 'Euclid Circular A', sans-serif;
-            font-weight: 500;
-            letter-spacing: 0em;
+            font-family: 'Euclid Circular A:500', sans-serif;
+            font-weight: 400;
         }
-    </style> 
-<link href="css/custom_euclid.css" rel="stylesheet" type="text/css"> 
+    </style>
+    <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
+<link href="css/custom_PO2KSNMT.css?p=IfGpOJ81" rel="stylesheet" type="text/css"><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180599504-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-180599504-1');
+</script>
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff"> 
 </head>
 <body class="slides animated noPreload">
 <svg id="customSvgLibrary" xmlns="http://www.w3.org/2000/svg" style="display:none">
@@ -380,22 +393,20 @@
         <p class="large margin-bottom-4 ae-2"><span class="opacity-8">Feel free to let us create something, then you'll get inspired.</span><br><span class="opacity-8">We are here for you. May the horse with you.</span></p>
         <div class="form-55 fix-5-12">
           <div class="pad padding-top-2 shadow left selected ae-3">
-            <form action="https://formspree.io/f/xoqpenqg" method="post" class="slides-form wide">
+            <form action="ajax-email.php" id="contact-form" method="post" class="slides-form wide" data-ajax-form="true">
               <ul class="flex noSpaces">
                 <li class="col-6-12 form-55-input-1">
-                  <div class="label ae-5"><label class="left opacity-5" for="name">Your name</label></div>
-                  <input class="rounded wide ae-6" type="name" name="name" placeholder="Name" required>
+                  <div class="label ae-5"><label class="left opacity-5" for="name55">Your name</label></div>
+                  <input class="rounded wide ae-6" id="name55" type="name" name="name" placeholder="Name" required>
                 </li>
                 <li class="col-6-12 form-55-input-2">
-                  <div class="label ae-5"><label class="left opacity-5" for="email">Email address</label></div>
-                  <input class="rounded wide ae-6" type="email" name="email" placeholder="Email" required>
+                  <div class="label ae-5"><label class="left opacity-5" for="email55">Email address</label></div>
+                  <input class="rounded wide ae-6" id="email55" type="email" name="email" placeholder="Email" required>
                 </li>
               </ul>
-              <div class="label ae-8"><label class="opacity-5" for="message">Message</label></div>
-              <textarea class="rounded left wide ae-9" type="text" name="message" placeholder="Message" required></textarea>
-              <button type="submit" class="button wide black rounded ae-10 cropBottom margin-top-2">Send message</button>
-              <input type="hidden" name="_next" value="//majikitchen.com" />
-              <input type="hidden" name="_subject" value="Majikitchen Website" />
+              <div class="label ae-8"><label class="opacity-5" for="message55">Message</label></div>
+              <textarea class="rounded left wide ae-9" id="message55" type="text" name="message" placeholder="Message" required></textarea>
+              <button type="submit" class="button wide black rounded ae-10 cropBottom margin-top-2" data-success-text="Done!" data-success-class="message-sent" name="button">Send message</button>
             </form>
           </div>
         </div>
@@ -418,6 +429,5 @@
     <!-- Compressed Scripts -->
     <script src="js/slides.min.js?52351" type="text/javascript"></script>
     <script src="js/swiper.min.js" type="text/javascript"></script> 
-    
 </body>
 </html>
