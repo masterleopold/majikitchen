@@ -2483,50 +2483,6 @@ $(document).ready(function() { "use strict";
   $(document).find('[data-dialog-action]:not(.dialog)').slidesDialog("bindOpenCloseMethods");
 
 
-/***
-*       _____            _             _     ______
-*      / ____|          | |           | |   |  ____|
-*     | |     ___  _ __ | |_ __ _  ___| |_  | |__ ___  _ __ _ __ ___
-*     | |    / _ \| '_ \| __/ _` |/ __| __| |  __/ _ \| '__| '_ ` _ \
-*     | |___| (_) | | | | || (_| | (__| |_  | | | (_) | |  | | | | | |
-*      \_____\___/|_| |_|\__\__,_|\___|\__| |_|  \___/|_|  |_| |_| |_|
-*
-*     Ajax Contact Form
-*/
-
-  $('#contact-form, [data-ajax-form]').each(function(index, element) {
-    $(element).ajaxForm(function() {
-      var $ajaxForm = $(element),
-          $ajaxFormButton = $(element).find('[type="submit"]'),
-          ajaxFormButtonIsInput = $ajaxFormButton.is('input') ? true : false,
-          successText = $ajaxFormButton.data('success-text') ? $ajaxFormButton.data('success-text') : "Done!",
-          successClass = $ajaxFormButton.data('success-class') ? $ajaxFormButton.data('success-class') : "green",
-          defaultText = ajaxFormButtonIsInput ? $ajaxFormButton.val() : $ajaxFormButton.html(),
-          defaultClasses = $ajaxFormButton.attr('class');
-
-      if (ajaxFormButtonIsInput) {
-        $ajaxFormButton.val(successText);
-      } else {
-        $ajaxFormButton.text(successText)
-      }
-      $ajaxFormButton.addClass(successClass);
-
-      setTimeout(function(){
-        if (ajaxFormButtonIsInput) {
-          $ajaxFormButton.val(defaultText);
-        } else {
-          $ajaxFormButton.html(defaultText);
-        }
-        $ajaxFormButton.attr('class', defaultClasses);
-        $ajaxForm[0].reset();
-      },4000);
-    });
-  });
-
-
-
-
-
 
 
 /***
